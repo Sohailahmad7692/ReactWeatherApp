@@ -9,7 +9,7 @@ function ApiCall(props){
     const [lat,setLat]=useState("")
     useEffect(
     function tempchange(){
-    let rawdata=fetch(`https://api.openweathermap.org/data/2.5/weather?q=${props.cityName}&appid=420ddd5f335ad29e7a6f3d9dd895656b`)
+    let rawdata=fetch(`https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?q=${props.cityName}&appid=420ddd5f335ad29e7a6f3d9dd895656b`)
     rawdata.then(
         function(res){
             return res.json()
