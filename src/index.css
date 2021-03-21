@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font: 62.5%;
+}
+.mainDiv{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.mainDiv> .Header{
+  /* position: absolute; */
+  /* margin: 3rem; */
+  font-size:3rem;
+  font-family: 'PT Serif', serif;;
+  /* height: 6rem;
+  width: 40rem; */
+}
+.centerDiv{
+  width:30rem;
+  height: 30rem;
+  border: 2px solid black;
+  position: relative;
+  border-radius: 1rem;
+  background-color: rgb(161, 81, 236);
+  box-shadow: 5px 5px 15px grey;
+  margin-top: 3rem;
+}
+.container{
+  position: absolute;
+  top: 35%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  left: 5%;
+} 
+button{
+  height: 2.6rem;
+  width: 5rem;
+  font-size: 3rem;
+  color: black;
+}
+.timerStyle{
+  position:absolute;
+  width: 35rem;
+  height: 4rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 0.3rem;
+  /* text-align: center; */
+  /* line-height: 2.5rem; */
+  /* border: 2px solid black; */
+  top: 10%;
+  left: 5%;
+}
+.heading{
+  position:absolute;
+  /* width: 35rem;
+  height: 4rem; */
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  text-align: center;
+  top: 50%;
+  left: 15%;
+}
+.fa-street-view{
+  animation: backNforth 2s linear infinite alternate;
+}
+@keyframes backNforth{
+  from{ transform: translateX(-3px);}
+  to{ transform: translateX(3px);}
+}
+.Temp{
+  position:absolute;
+  /* width: 35rem;
+  height: 4rem; */
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  text-align: center;
+  top: 65%;
+  left: 30%;
+}
+.MaxAndMin{
+  position:absolute;
+  width: 35rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  margin: 0.2rem;
+  /* text-align: center; */
+  top: 65%;
+  left: 25%;
+}
+/* #cityStyle{
+  position: absolute;
+  left:5%;
+} */
+.latLon{
+  position:absolute;
+  width: 35rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  /* font-weight: bold; */
+  margin: 0.5rem;
+  /* text-align: center; */
+  top: 75%;
+  left: 15%;
+}
+#tempIcon{
+  position: absolute;
+  left: 2%;
+}
+
+
