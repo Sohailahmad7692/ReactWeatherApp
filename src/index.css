@@ -55,10 +55,10 @@ html{
   left: 5%;
 } 
 button{
-  height: 2.6rem;
-  width: 5rem;
-  font-size: 3rem;
-  color: black;
+  /* height: 2.6rem;
+  width: 5rem; */
+  /* font-size: 1.5rem; */
+  /* color: black; */
 }
 .timerStyle{
   position:absolute;
