@@ -15,7 +15,7 @@ function Timer(){
        return(
            
            <div className="timerStyle">
-        <span >{day} |  {date.getHours()} hr| {date.getMinutes()} Mn|  {date.getSeconds()} s</span>
+        <span >{day} |  {date.getHours()} Hr| {date.getMinutes()} Mn|  {date.getSeconds()} S</span>
         </div>
        )
        

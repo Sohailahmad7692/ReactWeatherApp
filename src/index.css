@@ -25,7 +25,9 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  /* background-color: rgb(255, 200, 127); */
+  background-color: rgb(234, 167, 243);
   flex-direction: column;
   margin-bottom: 3rem;
 }
@@ -43,8 +45,10 @@ html{
   border: 2px solid black;
   position: relative;
   border-radius: 1rem;
-  background-color: rgb(161, 81, 236);
-  box-shadow: 5px 5px 15px grey;
+  /* background-color: rgb(161, 81, 236); */
+  /* background-color: rgb(247, 135, 7); */
+  background-color: rgb(214, 60, 245);
+  box-shadow: 10px 10px 15px 5px grey;
   margin-top: 3rem;
 }
 .container{
@@ -83,6 +87,7 @@ button{
   text-align: center;
   top: 50%;
   left: 15%;
+  text-transform: capitalize;
 }
 .fa-street-view{
   animation: backNforth 2s linear infinite alternate;
@@ -90,6 +95,12 @@ button{
 @keyframes backNforth{
   from{ transform: translateX(-3px);}
   to{ transform: translateX(3px);}
+}
+.errorcity{
+  position: absolute;
+  top: 55%;
+  left: 25%;
+
 }
 .Temp{
   position:absolute;

@@ -24,7 +24,7 @@ function SearchBox(){
           </nav> */}
           <div className="container">
           <input className="" type="text" placeholder="Type city name..." aria-label="Search" onChange={inputchange} value={city}/>
-          <button className="" type="submit" onClick={finalInput}>Search</button>
+          <button className="btn btn-primary ml-1 h-25 mb-2" type="submit" onClick={finalInput}>Search</button>
           </div>
           <ApiCall cityName={finalcity}/>
           </>
