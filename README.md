@@ -1,2 +1,2 @@
-#React Weather App
-<img src="/public/logo512.png">
+# React Weather App
+
